@@ -1,16 +1,23 @@
-n=int(input("enter n value:"))
+a=-1
+b=1
 sum=0
+n=int(input())
 for i in range (1,n+1):
-    if i%2==0 :
-        sum=sum+i
-print("sum of even numbers",sum)
-add=0
-for i in range (1,n+1):
-    if i%2==1:
-        add=add+i
-print("sum of odd numbers:",add)
+    c=a+b
+    print (c)
+    a=b
+    b=c
+    sum=sum+c
+print (sum)
 
 Output:
-enter n value:10
-sum of even numbers 30
-sum of odd numbers: 25
+7
+0
+1
+1
+2
+3
+5
+8
+20
+>
